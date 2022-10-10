@@ -370,4 +370,11 @@ main.main-register form div.password input {
     .discounts {
         justify-content: flex-end;
     }
+
+    footer div.footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+
 }
