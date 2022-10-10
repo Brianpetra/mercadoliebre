@@ -194,10 +194,6 @@ main.main-login form {
     width: 50%;
 }
 
-main.main-login form button {
-    background-color: #4465AC
-}
-
 main.main-login form input {
     margin-bottom: 10%;
     border: 0;
@@ -217,6 +213,10 @@ main.main-login form button {
     width: 100%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     color: white;
+    background-color: #4465AC;
+    transition-property:
+background-color, color; 
+    transition-duration: 0.5s
 }
 
 
