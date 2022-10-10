@@ -1,0 +1,373 @@
+/*======================================PÁGINA HOME.HTML=====================================*/
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+/*=====================[HEADER]====================*/
+
+header {
+    background-color: #EAC926;
+    font-size: 25px;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40vw;
+    margin: 29px 0 0 27px;
+}
+
+.search-bar {
+    display: flex;
+    margin-top: 20px;
+    width: 48vw;
+    justify-content: center;
+}
+
+div.logo-search input {
+    font-size: 12px;
+    background-color: aliceblue;
+    border: solid 1px #666;
+    width: 70%;
+}
+
+.search-icon {
+    background-color: aliceblue;
+    border: solid 1px #666;
+    font-size: 15px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    height: 60%;
+}
+
+.cuotas-credito {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+header nav {
+    display: none;
+    font-size: 13px;
+    margin-left: -40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li i {
+    margin-left: 5px;
+}
+
+.burguer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fa-bars {
+    border-radius: 6px;
+    color: #ebebeb;
+    background-color: #1259c3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+.logo-banner {
+    width: 100%;
+    display: flex;
+}
+
+/*=====================[MAIN]=====================*/
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+main section article div .prices-discounts i {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section div.products article {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detail-products {
+    display: block;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.headlines {
+    font-size: 24px;
+}
+
+.img-products {
+    width: 100%;
+}
+
+.descriptions {
+    display: none;
+    font-size: 16px;
+}
+
+.prices-discounts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.discounts {
+    font-size: 16px;
+    width: 70%;
+    color: #39b54a;
+}
+
+.prices {
+    font-size: 18px;
+    width: 30%;
+}
+
+/*======================[FOOTER]=======================*/
+
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+.icon-footer {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+
+.body-text {
+    font-size: 12px;
+}
+
+/*==============================================PÁGINA LOGIN.HTML==========================================*/
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+
+main.main-login form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main.main-login form button {
+    background-color: #4465AC
+}
+
+main.main-login form input {
+    margin-bottom: 10%;
+    border: 0;
+    padding: 1%;
+    font-size: 120%;
+    border-radius: 5%;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main.main-login form button {
+    margin-bottom: 10%;
+    border: 0;
+    padding: 1%;
+    font-size: 120%;
+    border-radius: 5%;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    color: white;
+}
+
+
+/*==============================================PÁGINA REGISTER.HTML=======================================*/
+main.main-register {
+    display: flex;
+    justify-content: center;
+}
+
+div.nombre {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+div.usuario {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+div.email {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+div.domicilio {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main.main-register form {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    align-items: center;
+}
+
+main.main-register form div {
+    margin-bottom: 5%
+}
+
+main.main-register form div.fecha legend {
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.main-register form div.perfil-usuario legend {
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.main-register form div.interes legend {
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.main-register form div.foto-perfil legend {
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.main-register form div.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.main-register form div.password input {
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/*==================[MEDIA QUERIES]=================*/
+
+/*TABLET*/
+
+@media (min-width: 361px){
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo{
+        width: 28vw;
+    }
+
+    .search-bar {
+        width: 28vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .cuotas-credito {
+        font-size: 1.5vw;
+        display: flex;
+        align-items: center;
+        margin-top: 4%;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header nav ul.menu-left {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+
+    header nav ul.menu-right {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        font-size: 1.5vw;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+    
+    main section div.products article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 49%;
+    }
+    
+    .descriptions {
+        display: block;
+    }
+
+    .discounts {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/*DESKTOP*/
+
+@media (min-width: 769px){
+    main section div.products article {
+        width: 22%;
+    }
+
+    .detail-products {
+        padding: 0%;
+    }
+
+    .discounts {
+        justify-content: flex-end;
+    }
+}
